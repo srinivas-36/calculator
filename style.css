@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #3EECAC;
+
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        
+
+}
+.heading{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: white;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px 8px 0 0;
+    background: white;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+ 
+}
+
+.result{
+    background-color: #413e3e;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    padding: 20px;
+    font-size: 20px;
+    margin: 4px;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1px; 
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    gap: 1px;
+}
+
+ .row button{
+    width: 75px;
+    height: 75px;
+    border-radius: 0 0 0 0;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.2s all linear; 
+    cursor: pointer;
+} 
+.row .sym{
+    background-color: rgb(232, 150, 82);
+    color: white;
+    transition: 0.2s all linear;
+
+}
+.row .sym:hover{
+    background-color: #e0e0e0;
+    color: black;
+}
+.row button:hover{
+    background-color: #e0e0e0;
+}
+
+.row button:active{
+    background-color: #eeb3b3;
+}
+
+#equal{
+    width: 150px;
+    background-color: rgb(112, 232, 82);
+    color: white;
+    transition: 0.2s all linear;
+}
+#equal:hover{
+    background-color: #e0e0e0;
+    color: black;
+}
+
+#dot{
+    font-weight: 600;
+}
+#c{
+    background-color: #f06c6c;
+    color: white;
+    transition: 0.2s all linear;
+}
+#c:hover{
+    background-color: #e0e0e0;
+    color: black;
+}
